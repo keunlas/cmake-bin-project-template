@@ -5,6 +5,7 @@ include(cmake/build_option.cmake)
 include(cmake/compile_setting.cmake)
 
 # add_subdirectory(your_program)
+add_subdirectory(test)
 
 include(cmake/install.cmake)
 include(cmake/cpack.cmake)
